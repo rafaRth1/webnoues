@@ -1,0 +1,82 @@
+header {
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+	top: 0;
+}
+
+.site-header {
+	@include display {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	height: 8rem;
+	background-color: $blanco;
+}
+
+.logo {
+	font-size: 3rem;
+	text-decoration: none;
+	background-color: $negro;
+	color: $blanco;
+	font-family: $fuenteSecundaria;
+	font-weight: $regular;
+	padding: 1rem;
+	align-self: center;
+	text-transform: uppercase;
+	letter-spacing: 0.5rem;
+	margin: 1rem;
+}
+
+.site-nav {
+	margin: 2rem;
+
+	ul {
+		display: flex;
+		margin: 2rem;
+		padding: 0;
+
+		li {
+			margin: 2rem;
+			list-style: none;
+			font-size: 1.5rem;
+			font-family: $fuentePrincipal;
+			font-weight: $delgada;
+			cursor: pointer;
+
+			a {
+				text-decoration: none;
+				color: $negro;
+				transition: 0.3s ease all;
+
+				&:hover {
+					color: $anaranjado;
+				}
+			}
+		}
+	}
+}
+
+.login-register {
+	font-size: 1.4rem;
+	font-family: $fuentePrincipal;
+	font-weight: $delgada;
+	margin-left: 10rem;
+}
+
+.site-carrito {
+	font-size: 2.5rem;
+	cursor: pointer;
+}
+
+#numero-compras {
+	font-family: $fuentePrincipal;
+	font-weight: $delgada;
+}
+
+/* Clase active para el nav*/
+.active-color {
+	color: #ff6200 !important;
+}
