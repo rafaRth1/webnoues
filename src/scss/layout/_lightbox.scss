@@ -1,0 +1,29 @@
+.vistaProducto {
+	background-color: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0;
+	pointer-events: none;
+	z-index: 1000;
+	transition: 0.4s ease-in all;
+
+	.view-contenido {
+		width: 1000px;
+		height: 800px;
+		padding: 10px;
+		margin: 10rem auto;
+		color: $negro;
+		background-color: $blanco;
+	}
+}
+
+// BOTON PARA BORRAR O QUITAR EL LIGHTBOX
+.btn-borrar {
+	color: $negro;
+	text-decoration: none;
+	font-size: 2.5rem;
+	cursor: pointer;
+}

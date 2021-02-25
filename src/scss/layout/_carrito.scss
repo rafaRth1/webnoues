@@ -1,0 +1,138 @@
+.carrito {
+	position: absolute;
+	position: fixed;
+	font-size: 2rem;
+	top: 0;
+	right: 0;
+	width: 0;
+	height: 100%;
+	background-color: $blanco;
+	transition: 0.6s;
+	border-left: 1px solid $mostaza;
+}
+
+.site-header-card {
+	p {
+		color: $blanco;
+		font-family: $fuenteSecundaria;
+		text-align: center;
+		background-color: $negro;
+		padding: 3rem;
+		margin-top: 7rem;
+		position: relative;
+	}
+}
+
+.contenedor-carrito {
+	margin: 1rem;
+	overflow-x: hidden;
+	height: 55rem;
+}
+
+.contenedor-carrito ul li {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	min-width: 30rem;
+}
+
+.contenedor-carrito ul li img {
+	max-width: 80%;
+}
+
+.date-min-car {
+	position: relative;
+
+	p {
+		font-size: 1.6rem;
+		font-family: $fuentePrincipal;
+		color: $mostaza;
+		margin: 0.5rem;
+	}
+
+	span {
+		font-size: 1.5rem;
+		color: $anaranjado;
+		font-family: $fuentePrincipal;
+		margin: 0.5rem;
+	}
+
+	input {
+		width: 9rem;
+		display: block;
+		margin: 4rem 0.5rem 0.5rem 0.5rem;
+		font-family: $fuentePrincipal;
+		color: $mostaza;
+	}
+
+	i {
+		position: absolute;
+		top: 0;
+		right: 0;
+		border: 0;
+		font-size: 2rem;
+		cursor: pointer;
+	}
+}
+
+.separador {
+	color: #e8e6e6;
+}
+
+.precio-total {
+	p {
+		font-family: $fuentePrincipal;
+		font-size: 2.4rem;
+		font-weight: $delgada;
+		margin: 1rem 3rem;
+	}
+
+	span {
+		font-family: $fuentePrincipal;
+		font-size: 2.4rem;
+		margin: 1rem 3rem;
+		color: $anaranjado;
+	}
+}
+
+.btn-viewCar {
+	display: flex;
+	justify-content: center;
+}
+
+.view-car {
+	background-color: $anaranjado;
+	padding: 1.2rem;
+	color: $blanco;
+	font-family: $fuentePrincipal;
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-align: center;
+	margin: 4rem 4rem;
+	width: 300px;
+	cursor: pointer;
+}
+
+.deco-li-carrito {
+	border-bottom: 1px solid $mostaza;
+	padding: 1rem 0;
+}
+
+/*=========== Clase que ayuda a abrir el carrito ===========*/
+.mode-car-ocultar {
+	width: 37rem;
+}
+
+.borrar-curso {
+	background-color: $blanco;
+	font-size: 1.2rem;
+	padding: 0.3rem 1rem;
+	border-radius: 2rem;
+	text-decoration: none;
+	font-family: $fuentePrincipal;
+	border: 1px solid $mostaza;
+	color: $mostaza;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-right: 1rem;
+}

@@ -1,0 +1,12 @@
+.site-section-two {
+	margin: 1rem;
+	@include grid(3);
+	@include display {
+		display: flex;
+		justify-content: center;
+	}
+
+	img {
+		margin: 1rem;
+	}
+}

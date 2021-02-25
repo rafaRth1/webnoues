@@ -1,0 +1,29 @@
+.alert-danger {
+	font-size: 1.3rem;
+	font-family: $fuentePrincipal;
+	color: $rojo;
+	background-color: #f8d7da;
+	border-color: #f5c2c7;
+	padding: 1rem;
+	margin: 1rem 0;
+	border: 1px solid transparent;
+	border-radius: 0.25rem;
+	text-align: center;
+}
+
+.alert-noDanger {
+	font-size: 1.3rem;
+	font-family: $fuentePrincipal;
+	color: $verde;
+	background-color: #d1e7dd;
+	border-color: #f5c2c7;
+	padding: 1rem;
+	margin: 1rem 0;
+	border: 1px solid transparent;
+	border-radius: 0.25rem;
+	text-align: center;
+}
+
+.border-alert {
+	border: 2px solid $rojo;
+}
